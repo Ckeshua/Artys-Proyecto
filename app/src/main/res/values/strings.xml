@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Proyecto titulo</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">"Log in"</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="logins">Iniciar Sesion</string>
+    <string name="Crear_cuenta">¿No tiene cuenta? Crear cuenta.</string>
+    <string name="registrarse">Registrarse</string>
 </resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "272455521099",
+    "project_id": "artys-proyecto",
+    "storage_bucket": "artys-proyecto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272455521099:android:1c56e34b5f78e982050ece",
+        "android_client_info": {
+          "package_name": "com.UnabEduardo.proyectotitulo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272455521099-ajvmtk70e7n31nbnlarru9uqmvf4kag7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCTXBlelsyJIuUGLrrFAg7Q2ae-I6fUwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272455521099-ajvmtk70e7n31nbnlarru9uqmvf4kag7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
