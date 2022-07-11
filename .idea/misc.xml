@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2245" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/drawable/iniciodesesion.xml" value="0.2245" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_auth.xml" value="0.33" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_auth2.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/menu/actionbar1.xml" value="0.24814814814814815" />
       </map>
     </option>
   </component>

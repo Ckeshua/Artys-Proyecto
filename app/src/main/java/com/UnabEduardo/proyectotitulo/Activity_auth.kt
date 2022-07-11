@@ -35,23 +35,10 @@ class Activity_auth : AppCompatActivity() {
                     }
             }
         }
-        findViewById<Button>(R.id.Btn_register).setOnClickListener {
-            if (findViewById<EditText>(R.id.InputEmail).text.isNotEmpty() &&
-                findViewById<EditText>(R.id.InputPassw).text.isNotEmpty()
-            ){
-                FirebaseAuth.getInstance()
-                    .createUserWithEmailAndPassword(
-                        InputEmail.text.toString(),
-                        InputPassw.text.toString()
-                    ).addOnCompleteListener {
-                        if (it.isSuccessful){
-                            startActivity(myintent)
-                        }
-                        else{
-                            showAlert()
-                        }
-                    }
-            }
+        findViewById<Button>(R.id.Btn_registerBD).setOnClickListener {
+                val myintent = Intent(this,Register1Activity::class.java)
+                startActivity(myintent)
+
 
         }
     }
