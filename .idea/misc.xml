@@ -3,14 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/drawable/circle.xml" value="0.332" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/drawable/grumodel.xml" value="0.332" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/drawable/ic_add.xml" value="0.332" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/drawable/ic_anchor.xml" value="0.25" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2245" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/drawable/iniciodesesion.xml" value="0.2245" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/drawable/modelgru.xml" value="0.332" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_auth.xml" value="0.33" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_auth2.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_gallery.xml" value="0.25" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_main_activity3dmodelling.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_main_gallery.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/layout/alerdialog_nombremodelo.xml" value="0.28229166666666666" />
         <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/menu/actionbar1.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/menu/actionbar_logout.xml" value="0.365625" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/menu/gallery_actionbar.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/ckesh/AndroidStudioProjects/Proyectotitulo/app/src/main/res/mipmap-anydpi-v26/ic_Grumodel.xml" value="0.2555" />
       </map>
     </option>
   </component>

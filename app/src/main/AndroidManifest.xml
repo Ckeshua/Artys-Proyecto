@@ -14,6 +14,16 @@
         android:theme="@style/Theme.ProyectoTitulo"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_3dmodelling"
+            android:theme="@style/Theme.ProyectoTitulo.NoActionBar"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity_gallery"
+            android:exported="false"
+            android:label="@string/title_activity_main_gallery"
+            android:theme="@style/Theme.ProyectoTitulo" />
+        <activity
             android:name=".Register1Activity"
             android:exported="false" />
         <activity

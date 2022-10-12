@@ -8,6 +8,8 @@ import android.widget.CheckBox
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import com.google.firebase.auth.FirebaseAuth
+import java.util.regex.Matcher
+import java.util.regex.Pattern
 
 class Register1Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,8 +22,11 @@ class Register1Activity : AppCompatActivity() {
         findViewById<Button>(R.id.Btn_registerBD).setOnClickListener {
             if (findViewById<CheckBox>(R.id.checkBox).isChecked) {
                 if (findViewById<EditText>(R.id.InputEmail).text.isNotEmpty() &&
-                    findViewById<EditText>(R.id.InputPassw).text.isNotEmpty()
-                ) {
+                    findViewById<EditText>(R.id.InputPassw).text.isNotEmpty() &&
+                    InputPassw.length() >= 8
+                )// {
+                //if (checkpass(InputPassw.toString()))
+                //{
                     FirebaseAuth.getInstance()
                         .createUserWithEmailAndPassword(
                             InputEmail.text.toString(),
@@ -30,28 +35,37 @@ class Register1Activity : AppCompatActivity() {
                             if (it.isSuccessful) {
                                 startActivity(myintent)
                             } else {
-                                showAlert(1)
+                                showAlert("Se ha producido un error al registrar usuario")
                             }
                         }
-                }
+                // }
+                //else{
+                //  showAlert(mensajepass)
+                //}
+            else {
+                showAlert(
+                    "La contraseña no es valida." +
+                            "Por favor inserte una contraseña con largo mayor a 6"
+                )
             }
+        }
             else{
-                showAlert(2)
+                showAlert("Se ha producido un error al registrar usuario")
             }
         }
     }
-    private fun showAlert(number: Int){
+    private fun showAlert(mensaje: String){
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Error")
-        if(number==1) {
-            builder.setMessage("Se ha producido un error al registrar usuario")
-        }
-        else if(number==2){
-            builder.setMessage("Es necesario aceptar los terminos y condiciones")
-        }
+        builder.setMessage(mensaje)
         builder.setPositiveButton("Aceptar",null)
         val dialog: AlertDialog = builder.create()
         dialog.show()
     }
 
+    private fun checkpass (pass: String){
+        if (pass.length <8){
+            return
+        }
+    }
 }

@@ -19,7 +19,8 @@ class Activity_auth : AppCompatActivity() {
 
         findViewById<Button>(R.id.Btn_IniciarS).setOnClickListener {
             if (findViewById<EditText>(R.id.InputEmail).text.isNotEmpty() &&
-                findViewById<EditText>(R.id.InputPassw).text.isNotEmpty()
+                findViewById<EditText>(R.id.InputPassw).text.isNotEmpty() &&
+                InputPassw.length()>=8
             ) {
                 FirebaseAuth.getInstance()
                     .signInWithEmailAndPassword(
