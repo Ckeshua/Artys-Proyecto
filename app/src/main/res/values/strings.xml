@@ -69,4 +69,5 @@
     <string name="depth_placement">Posicionamiento profundo</string>
     <string name="plane_placement">Posicionamiento en plano</string>
     <string name="best_placement">Mejor posicionamiento</string>
+    <string name="sin_asignacion">No asignado</string>
 </resources>

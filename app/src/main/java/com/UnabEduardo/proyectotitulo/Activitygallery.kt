@@ -2,6 +2,7 @@ package com.UnabEduardo.proyectotitulo
 
 import android.app.AlertDialog
 import android.content.DialogInterface
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
@@ -36,5 +37,13 @@ class Activitygallery : AppCompatActivity() {
         builder.setView(dialogLayout)
         builder.setPositiveButton("OK") { dialogInterface, i -> Toast.makeText(applicationContext, "EditText is " + editText.text.toString(), Toast.LENGTH_SHORT).show() }
         builder.show()
-    }*/
+
+        val intent = Intent()
+    /*        .setType("*/*")
+            .setAction(Intent.ACTION_GET_CONTENT)
+
+        startActivityForResult(Intent.createChooser(intent, "Select a file"), 777)
+    }
+*/
+
 }

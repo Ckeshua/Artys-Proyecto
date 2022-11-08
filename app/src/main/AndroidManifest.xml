@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.UnabEduardo.proyectotitulo">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,10 +16,16 @@
         android:theme="@style/Theme.ProyectoTitulo"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityProfileEdit"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivity_3dmodelling"
-            android:theme="@style/Theme.ProyectoTitulo.NoActionBar"
-            android:exported="false" />
-
+            android:exported="false"
+            android:theme="@style/Theme.ProyectoTitulo.NoActionBar" />
         <activity
             android:name=".MainActivity_gallery"
             android:exported="false"
@@ -28,6 +36,9 @@
             android:exported="false" />
         <activity
             android:name=".Activity_auth"
+            android:exported="false" />
+        <activity
+            android:name=".Activityprofile"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

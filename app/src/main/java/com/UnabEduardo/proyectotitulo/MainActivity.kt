@@ -16,12 +16,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val user = FirebaseAuth.getInstance().currentUser
-        if (user != null) {
+        /*if (user != null) {
             val textView: TextView = findViewById(R.id.textViewemail)
             textView.text = user.email
-
-
-        }
+        }*/
         val button: ImageButton = findViewById(R.id.aGallerybutton)
         button.setOnClickListener(){
             val myintent = Intent(this,MainActivity_gallery::class.java)
@@ -50,6 +48,11 @@ class MainActivity : AppCompatActivity() {
             R.id.logout_button -> {
                 FirebaseAuth.getInstance().signOut()
                 val myintent = Intent(this,MainActivity::class.java)
+                startActivity(myintent)
+                true
+            }
+            R.id.profile -> {
+                val myintent = Intent(this,Activityprofile::class.java)
                 startActivity(myintent)
                 true
             }
